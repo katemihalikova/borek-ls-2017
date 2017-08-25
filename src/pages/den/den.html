@@ -1,0 +1,19 @@
+<ion-header>
+  <ion-navbar>
+    <button ion-button menuToggle>
+      <ion-icon name="menu"></ion-icon>
+    </button>
+    <ion-title>Program</ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content>
+  <img src="assets/{{den}}.svg">
+<ion-list>
+  <ion-item *ngFor="let aktivita of aktivity">
+    <h2>{{aktivita.cas}}</h2>
+    <h3>{{aktivita.aktivita}}</h3>
+    <p>{{aktivita.poznamka}}</p>
+  </ion-item>
+</ion-list>
+</ion-content>

@@ -1,0 +1,353 @@
+{
+	"nedele" : {
+		"misto": "Sinkuleho koleje",
+		"adresa": "Zikova 702/13, 160 00 Praha 6 - Dejvice-Praha 6",
+		"program": [
+			{
+				"cas": "18:30 - 19:30",
+				"aktivita":"příjezd na koleje, ubytování"
+			},
+
+
+			{
+				"cas":"19:00 - 21:00",
+				"aktivita":"večerní seznamování"
+			}
+		],
+		"poznamka" : "večeře není zajištěna"
+
+
+
+	},
+
+
+	"pondeli" : {
+		"misto": "FIT",
+		"adresa": " Thákurova 9, 160 00 Praha 6",
+		"program" : [
+			{
+				"cas": "8:00 - 8:30",
+				"aktivita" : "ranní jóga s Lenkou",
+				"misto" : "koleje"
+			},
+
+			{
+				"cas": "8:30",
+				"aktivita": "sraz u kolejí a odchod na FIT"
+			},
+
+			{
+				"cas": "9:00 - 10:00",
+				"aktivita" : "snídaně a přivítání"
+			},
+
+			{
+				"cas":"10:00- 11:00",
+				"aktivita" : "hrátky s HTML"
+			},
+
+			{
+				"cas":"11:00- 11:45",
+				"aktivita" : "hrátky s CSS"
+			},
+
+			{
+				"cas" : "11:45 - 12:30",
+				"aktivita" : "oběd"
+			},
+
+			{
+				"cas" : "12:30 - 13:30",
+				"aktivita" : "layouts, inspirativní weby"
+			},
+
+			{
+				"cas" : "13:30 - 15:45",
+				"aktivita" : "práce na vlastním webu"
+			},
+
+			{
+				"cas" : "15:45 - 16:30",
+				"aktivita" : "svačina, přesun na piknik"
+			},
+
+			{
+				"cas" : "16:30 - 19:30",
+				"aktivita" : "piknik",
+				"poznámka" : "prezentační dovednosti, seznamovací hry"
+			},
+
+			{
+				"cas" : "19:30 - 20:00",
+				"aktivita" : "přesun na koleje"
+			}
+		]
+
+	},
+
+	"utery" : {
+		"misto": "FIT",
+		"adresa": " Thákurova 9, 160 00 Praha 6",
+		"program" : [
+			{
+				"cas": "7:00 - 7:30",
+				"aktivita" : "ranní běh s Ditou/ranní jóga s Lenkou"
+			},
+
+			{
+				"cas": "7:50",
+				"aktivita": "sraz u kolejí a odchod na FIT"
+			},
+
+			{
+				"cas": "8:00 - 8:20",
+				"aktivita" : "snídaně a Otevři oči s Monikou Kreidlovou, MSD"
+			},
+
+			{
+				"cas":"8:20- 10:20",
+				"aktivita" : "úvod do vektorové grafiky"
+			},
+
+			{
+				"cas":"10:20 - 10:40",
+				"aktivita" : "přestávka"
+			},
+
+			{
+				"cas" : "10:40 - 12:00",
+				"aktivita" : "grafika"
+			},
+
+			{
+				"cas" : "12:00 - 13:00",
+				"aktivita" : "oběd"
+			},
+
+			{
+				"cas" : "13:00 - 16:00",
+				"aktivita" : "grafika"
+			},
+
+			{
+				"cas" : "16:00 - 16:30",
+				"aktivita" : "svačina"
+			},
+
+			{
+				"cas" : "16:30 - 18:00",
+				"aktivita" : "procházka Prahou"
+			},
+
+			{
+				"cas" : "18:00 - 19:30",
+				"aktivita" : "exkurze Microsoft",
+				"poznamka" : "přednáška, tour, grilovačka",
+				"misto" : "Vyskočilova 1561/4a, 140 00 Praha 4"
+			},
+
+			{
+				"cas" : "19:30 - 20:00",
+				"aktivita" : "přesun na koleje"
+			}
+		]
+
+	},
+
+	"streda" : {
+		"misto": "FEL",
+		"adresa": " Karlovo náměstí 13. 121 35 Praha 2",
+		"program" : [
+			{
+				"cas": "7:15 - 7:45",
+				"aktivita" : "ranní jóga s Lenkou"
+			},
+
+			{
+				"cas": "8:00",
+				"aktivita": "sraz u kolejí a odchod na FEL"
+			},
+
+			{
+				"cas": "8:30 - 9:00",
+				"aktivita" : "snídaně na FEL ČVUT"
+			},
+
+			{
+				"cas":"9:00- 12:00",
+				"aktivita" : "hrátky s legoroboty"
+			},
+
+			{
+				"cas":"12:00 - 13:00",
+				"aktivita" : "oběd"
+			},
+
+			{
+				"cas" : "13:00 - 16:00",
+				"aktivita" : "hrátky s legoroboty"
+			},
+
+			{
+				"cas" : "16:00 - 16:30",
+				"aktivita" : "svačina, přesun na exkurzi"
+			},
+
+			{
+				"cas" : "16:30 - 20:00",
+				"aktivita" : "exkurze Nestlé",
+				"misto" : "Mezi Vodami 2035/31, 143 00 Praha 12-Modřany"
+			},
+
+			{
+				"cas" : "20:00",
+				"aktivita" : "přesun na koleje"
+			}
+		]
+
+	},
+
+	"ctvrtek" : {
+		"misto": "FIT",
+		"adresa": " Thákurova 9, 160 00 Praha 6",
+		"program" : [
+			{
+				"cas": "7:10 - 7:45",
+				"aktivita" : "ranní běh s Ditou"
+			},
+
+			{
+				"cas": "8:00",
+				"aktivita": "sraz u kolejí a odchod na FIT"
+			},
+
+			{
+				"cas": "8:15 - 8:55",
+				"aktivita" : "snídaně a Otevři oči s Janou Moudrou a Kateřinou Veselovskou"
+			},
+
+			{
+				"cas":"9:00- 9:45",
+				"aktivita" : "úvod do programování - Hour of Code, Angry birds"
+			},
+
+			{
+				"cas":"9:45 - 12:30",
+				"aktivita" : "Javascript/Arduino"
+			},
+
+			{
+				"cas" : "12:30 - 13:30",
+				"aktivita" : "oběd"
+			},
+
+			{
+				"cas" : "13:30 - 14:30",
+				"aktivita" : "exkurze SAGElab/Humanoid",
+				"poznamka" : "FIT"
+			},
+
+			{
+				"cas" : "14:45 - 17:30",
+				"aktivita" : "Javascript/Arduino"
+			},
+
+			{
+				"cas" : "17:30 - 18:00",
+				"aktivita" : "svačina, přesun na exkurzi"
+			},
+
+			{
+				"cas" : "18:00 - 20:30",
+				"aktivita" : "exkurze ŠKODA",
+				"poznamka" : "DigiLab",
+				"misto" : "1603/, Jankovcova 862/47, 170 00 Praha 7-Maniny"
+			},
+
+			{
+				"cas" : "20:30",
+				"aktivita" : "přesun na koleje"
+			}
+		]
+
+	},
+
+	"patek" : {
+		"misto": "FIT",
+		"adresa": " Thákurova 9, 160 00 Praha 6",
+		"program" : [
+
+			{
+				"cas": "8:00",
+				"aktivita": "sraz u kolejí a odchod na FIT"
+			},
+
+			{
+				"cas": "8:20 - 8:40",
+				"aktivita" : "snídaně"
+			},
+
+			{
+				"cas":"8:20- 9:00",
+				"aktivita" : "hackaton - instrukce, představení lektorů"
+			},
+
+			{
+				"cas":"9:30 - 9:00",
+				"aktivita" : "brainstorming nápadů"
+			},
+
+			{
+				"cas" : "9:30 - 10:00",
+				"aktivita" : "prentace nápadů a rozdělení do skupinek"
+			},
+
+			{
+				"cas" : "10:00 - 16:00",
+				"aktivita" : "hackaton"
+			},
+
+			{
+				"cas" : "12:00 - 13:30",
+				"aktivita" : "oběd"
+			},
+
+			{
+				"cas" : "16:00 - 16:30",
+				"aktivita" : "příprava prezentací"
+			},
+
+			{
+				"cas" : "16:30 - 17:00",
+				"aktivita" : "přesun na Exkurzi"
+			},
+
+			{
+				"cas" : "17:00 - 18:00",
+				"aktivita" : "exkurze PARALELNÍ POLIS"
+			},
+			{
+			"cas" : "18:30 - 22:00",
+				"aktivita" : "závečŕečný Galavečer a párty"
+			},
+
+			{
+				"cas" : "22:00",
+				"aktivita" : "přesun na koleje"
+			}
+		]
+
+	},
+
+	"sobota" : {
+		"misto": "FIT",
+		"adresa": " Thákurova 9, 160 00 Praha 6",
+		"program" : [
+			{
+				"cas" : "8:00 - 9:30",
+				"aktivita" : "odjezdy"
+			}
+		]
+
+}
+}

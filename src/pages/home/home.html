@@ -1,0 +1,17 @@
+<ion-header>
+  <ion-navbar>
+    <button ion-button menuToggle>
+      <ion-icon name="menu"></ion-icon>
+    </button>
+
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding>
+
+
+<img src="assets/uvod.svg">
+
+  <button ion-button block *ngFor="let page of pages" (click)="openPage(page)">{{page.title}}</button>
+
+</ion-content>

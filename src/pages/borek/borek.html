@@ -1,0 +1,42 @@
+<ion-header>
+  <ion-navbar>
+    <button ion-button menuToggle>
+      <ion-icon name="menu"></ion-icon>
+    </button>
+    <ion-title>Bořek</ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content>
+<ion-list>
+
+  <ion-item>
+    <ion-label stacked>Napiš mi</ion-label>
+    <ion-input type="text" [(ngModel)]="zprava"></ion-input>
+     <ion-icon name="ios-mail-open-outline" item-end></ion-icon>
+  </ion-item>
+
+<ion-item text-right>
+  <button ion-button icon-right (click)="odesliFormular()">
+  Odeslat
+  <ion-icon name="md-arrow-dropright"></ion-icon>
+</button>
+</ion-item>
+
+</ion-list>
+
+<ion-card>
+<img src="assets/borek.svg">
+
+  <ion-card-content>
+    <ion-card-title>
+      Kdo jsem?
+      </ion-card-title>
+    <p>
+      Ahoj, jmenuju se Bořek a stvořili mě organizátoři Letní školy IT. Mám důležitý úkol - sbírat všechny připomínky, nápady, hodnocení i kritiku od účastnic, a tak pomáhat zdokonalovat celou akci i další ročníky.
+    </p>
+    <p>Nakrm mě i ty!</p>
+
+  </ion-card-content>
+</ion-card>
+</ion-content>

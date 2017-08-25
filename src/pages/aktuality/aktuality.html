@@ -1,0 +1,39 @@
+<ion-header>
+  <ion-navbar>
+    <button ion-button menuToggle>
+      <ion-icon name="menu"></ion-icon>
+    </button>
+    <ion-title>Aktuality</ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content>
+  <ion-list>
+
+  <ion-item>
+    <ion-label stacked>Přidat aktualitu</ion-label>
+    <ion-input type="text" [(ngModel)]="zprava"></ion-input>
+     <ion-icon name="ios-mail-open-outline" item-end></ion-icon>
+  </ion-item>
+
+<ion-item text-right>
+  <button ion-button icon-right (click)="odesliFormular()">
+  Odeslat
+  <ion-icon name="md-arrow-dropright"></ion-icon>
+</button>
+</ion-item>
+
+</ion-list>
+
+
+<ion-card *ngFor="let aktualita of aktuality">
+  <ion-card-header>
+  {{aktualita.autor}}, {{aktualita.datum | date: 'd. M. y H:mm'}}
+  </ion-card-header>
+  <ion-card-content>
+    {{aktualita.text}}
+  </ion-card-content>
+</ion-card>
+
+
+</ion-content>
